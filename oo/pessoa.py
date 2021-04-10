@@ -18,5 +18,4 @@ if __name__ == '__main__':
     print(fabio.nome)
     print(fabio.idade)
     for filho in fabio.filhos:
-        print(filho,nome)
-    print(fabio.filhos)
+        print(filho.nome)

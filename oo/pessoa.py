@@ -4,7 +4,6 @@ class Pessoa:
         self.nome = nome
         self.filhos = list(filhos)
 
-
     def cumprimentar(self):
         return f'Olá {id(self)}'
 
@@ -18,5 +17,4 @@ if __name__ == '__main__':
     print(fabio.nome)
     print(fabio.idade)
     for filho in fabio.filhos:
-        print(filho,nome)
-    print(fabio.filhos)
+        print(filho.nome)
